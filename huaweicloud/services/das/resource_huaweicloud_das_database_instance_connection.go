@@ -28,7 +28,7 @@ var (
 // @API DAS POST /v3/{project_id}/connections
 // @API DAS GET /v3/{project_id}/connections/{connection_id}
 // @API DAS PUT /v3/{project_id}/connections/{connection_id}
-// @API DAS DELETE /v3/{project_id}/batch-delete-connections
+// @API DAS  DELETE /v3/{project_id}/batch-delete-connections
 func ResourceDatabaseInstanceConnection() *schema.Resource {
 	return &schema.Resource{
 		CreateContext: resourceDatabaseInstanceConnectionCreate,
